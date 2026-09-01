@@ -23,7 +23,7 @@ insert into Person_196 (id, email) values ('3', 'john@example.com');
 select id, email, dense_rank() over (partition by email order by id) as rank
 from Person_196
 
-with delete_cte as (ssss
+with delete_cte as (ssss 	
 	select id, 
 			email, 
 			dense_rank() over (partition by email order by id) as ran

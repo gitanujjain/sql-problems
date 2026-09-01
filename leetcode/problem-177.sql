@@ -31,4 +31,4 @@ END;
 $$ LANGUAGE plpgsql;
 
 
-SELECT * FROM NthHighestSalary(2);
+SELECT * FROM NthHighestSalary(10);
